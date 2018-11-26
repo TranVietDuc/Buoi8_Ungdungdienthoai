@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Style.css"/>
+</head>
+<body>
+<h1>Phone App</h1>
+
+
+<div class="frame" id="Nokia">
+    <input id="powerBtnNokia" type="button" value="power" onclick="Nokia.putPowerBtn()"/>
+    <p id="NamePhoneNokia">NOKIA</p>
+    <div id="screenNokia">
+        <input type="text" class="insideScreenNokia" id="statusBarNokia" value="4G-Mobiphone Baterry:  %  Mess:  "/>
+        <input type="text" class="insideScreenNokia" id="contentBarNokia"/>
+        <input type="text" class="insideScreenNokia" id="textMassageNokia" placeholder="..."/>
+    </div>
+    <div id="BtnContainerNokia">
+        <input type="button" class="btnNokia" id="backBtnNokia" value="<<"/>
+        <input type="button" class="btnNokia" id="sendBtnNokia" value="Sent" onclick="Nokia.sentMessage()"/>
+        <input type="button" class="btnNokia" id="blankBtnNokia" value="Read" onclick="Nokia.readMessage()"/>
+    </div>
+</div>
+
+
+<div class="frame" id="Iphone">
+    <input id="powerBtnIphone" type="button" value="power" onclick="Iphone.putPowerBtn()"/>
+    <div id="screenIphone">
+        <div  class="insideScreenIphone" id="statusBarIphone">
+            <input type="text" class="statusBarIphone" id="statusBarLeft" value="Mess 0"/>
+            <input type="text" class="statusBarIphone" id="taiTho"/>
+            <input type="text" class="statusBarIphone" id="statusBarRight" value="Batt"/>
+        </div>
+        <input  class="insideScreenIphone" id="contentBarIphone"/>
+        <input  class="insideScreenIphone" id="textMassageBarIphone"/>
+        <div id="BtnContainerIphone">
+            <input type="button" class="btnIphone" id="readBtnIphone" value="Read" onclick="Iphone.readMessage()"/>
+            <input type="button" class="btnIphone" id="sendBtnIphone" value="Sent" onclick="Iphone.sentMessage()"/>
+        </div>
+    </div>
+</div>
+<br>
+<button class="charger" id="ChargerNokia" onclick="Nokia.charger.putINorPutOut(Nokia)">UnCharging</button>
+<button  class="charger" id="ChargerIphone" onclick="Iphone.charger.putINorPutOut(Iphone)">UnCharging</button>
+<script type="text/javascript" src="Charger.js"></script>
+<script type="text/javascript" src="Battery.js"></script>
+<script type="text/javascript" src="Messages.js"></script>
+<script type="text/javascript" src="Phone.js"></script>
+<script type="text/javascript" src="Main.js"></script>
+</body>
+</html>

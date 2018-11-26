@@ -1,0 +1,237 @@
+#Nokia{
+    position: relative;
+    width: 280px;
+    height: 520px;
+    border: 2px solid black;
+    left: 300px;
+    border-radius: 10px;
+}
+
+#powerBtnNokia{
+    position: absolute;
+   left: 1px;
+    top: 1px;
+    height: 4%;
+    width: 20%;
+    border-radius: 10px;
+
+ }
+#NamePhoneNokia{
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 1px;
+    width: 20%;
+    text-align: center;
+    right: 5%;
+    top: 3%;
+}
+#screenNokia
+{
+    position: absolute;
+    width: 94%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 8%;
+
+}
+.insideScreenNokia{
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+
+
+}
+#statusBarNokia{
+    top: 0%;
+position: absolute;
+    height: 5%;
+    width: 99%;
+    text-align: center;
+    font-size: 12px;
+
+}
+#contentBarNokia{
+    position: absolute;
+    top: 6%;
+    height: 70%;
+    width: 99%;
+    text-align: right;
+}
+#textMassageNokia {
+    position: absolute;
+    top: 77%;
+    height: 22%;
+    width: 99%;
+
+
+}
+#BtnContainerNokia{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    bottom: 1%;
+}
+.btnNokia{
+    position: absolute;
+    top: 25%;
+    border-radius: 10px;
+    text-align: center;
+}
+#sendBtnNokia{
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#backBtnNokia{
+    left: 15%;
+    width: 15%;
+}
+#blankBtnNokia{
+    right: 15%;
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+.frame{
+    display: inline-block;
+}
+#Iphone {
+    position: relative;
+    width: 260px;
+    height: 500px;
+    border: 2px solid black;
+    left: 400px;
+    border-radius: 30px;
+}
+#powerBtnIphone{
+    position: absolute;
+    right: 25px;
+    top: 0px;
+    height: 2%;
+    width: 18%;
+    border-radius: 30px;
+    padding: 0%;
+    background-color: black;
+}
+#screenIphone{
+    position: absolute;
+    width: 97%;
+    height: 96%;
+    border: 2px solid black;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2%;
+}
+#statusBarIphone{
+    position: absolute;
+    width: 95%;
+    height: 5%;
+    border-radius: 30px;
+    font-family: Arial;
+    font-size: 2px;
+
+;
+}
+#taiTho{
+    position: absolute;
+    width: 55%;
+    height: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    top: -2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#statusBarLeft{
+    position: absolute;
+    width: 18%;
+    height: 80%;
+    left: 5%;
+    top: 15%;
+    border-radius:30px;
+    border: hidden;
+    font-size: 10px;
+}
+#statusBarRight{
+    position: absolute;
+    width:20%;
+    height: 80%;
+    right: 1%;
+    border-radius: 30px;
+    border: hidden;
+    font-size: 10px;
+    top: 15%;
+}
+#contentBarIphone{
+    position: absolute;
+    border-radius: 30px;
+    top: 6%;
+    height: 70%;
+    width: 99%;
+    border:1px solid chartreuse;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/4149mvghOfL._SY450_.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+#textMassageBarIphone{
+    position: absolute;
+    border-radius: 30px;
+    top: 77%;
+    height: 21%;
+    width: 99%;
+    border:1px solid chartreuse;
+    text-align: right;
+
+}
+#BtnContainerIphone{
+
+}
+.btnIphone{
+    position: absolute;
+    border-radius: 20px;
+    background-color: lavenderblush;
+    border: 2px solid cadetblue;
+    right: 3%;
+}
+#sendBtnIphone{
+    position: absolute;
+    bottom: 3%;
+
+}
+#readBtnIphone{
+    position: absolute;
+    bottom: 25%;
+}
+.charger {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    border:2px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 10px;
+    text-align: center;
+    text-blink: 2;
+}
+#ChargerNokia{
+left: 400px;
+}
+#ChargerIphone{
+    left: 700px;
+}
